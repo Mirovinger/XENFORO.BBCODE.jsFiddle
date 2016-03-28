@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="csiXF_bbCode_9F02109F" title="(CSI/XF/BBCODE) jsFiddle" version_string="1.0.4" version_id="5" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="custom_bb_code_jsfiddle_title" version_id="4" version_string="1.0.3"><![CDATA[jsFiddle]]></phrase>
+    <phrase title="custom_bb_code_jsfiddle_desc" version_id="4" version_string="1.0.3"><![CDATA[jsFiddle - популярный инструмент для демонстрации примеров HTML/CSS/JS.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="csiXF_bbCode_9F02109F_tag_jsfiddle" version_id="5" version_string="1.0.4"><![CDATA[<xen:require css="csiXF_bbCode_9F02109F.css" />
+<div class="csiXF_bbCode_9F02109F bbCodeJSFiddle"><iframe class="bbCodeJSFiddle-frame" frameborder="0" allowtransparency="true" scrolling="no" src="https://jsfiddle.net/{xen:raw $content}/embedded/result,html,css,js/light/"></iframe></div>]]></template>
+    <template title="csiXF_bbCode_9F02109F.css" version_id="4" version_string="1.0.3"><![CDATA[.bbCodeJSFiddle {
+  position: relative;
+  margin-bottom: 0;
+  max-width: 800px;
+  width: 100%;
+  height: 400px;
+}
+
+.bbCodeJSFiddle-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: #f7f7f9;
+}]]></template>
+  </templates>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes>
+    <bb_code bb_code_id="jsfiddle" bb_code_mode="callback" has_option="no" callback_class="CSI\BbCodeJsFiddle\BbCode\Formatter\Base" callback_method="getBbCodeJsFiddle" option_regex="" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" editor_icon_url="" sprite_mode="0" sprite_params_x="" sprite_params_y="" active="1">
+      <replace_html><![CDATA[]]></replace_html>
+      <replace_html_email><![CDATA[]]></replace_html_email>
+      <replace_text><![CDATA[]]></replace_text>
+      <example><![CDATA[[JSFIDDLE]f6n8noc8[/JSFIDDLE]]]></example>
+    </bb_code>
+  </bb_codes>
+</addon>

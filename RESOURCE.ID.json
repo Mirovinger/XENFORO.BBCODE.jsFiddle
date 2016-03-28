@@ -1,0 +1,26 @@
+{
+  "id": "csiXF_bbCode_9F02109F",
+  "name": "(CSI/XF/BBCODE) jsFiddle",
+  "description": "jsFiddle - популярный инструмент для демонстрации примеров HTML/CSS/JS.",
+  "version": "1.0.4",
+  "type": "xenforo-bbcode",
+  "keywords": [
+    "xenforo",
+    "bbcode",
+    "add-on"
+  ],
+  "homepage": "http://cyberspace.industries/",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Kitsune Solar",
+      "email": "msg@kitsune.solar",
+      "homepage": "http://kitsune.solar/"
+    }
+  ],
+  "support": {
+    "source": "",
+    "issues": "http://cyberspace.community/",
+    "forum": "http://cyberspace.community/"
+  }
+}
